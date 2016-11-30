@@ -22,7 +22,7 @@ $(document).ready(function() {
 
 
 
-    var apilink     = 'http://www.omdbapi.com/?';
+    var apilink     = 'https://www.omdbapi.com/?';
          function apifunction(data){
 
             var item = "<h2>" + data["Title"] + "</h2>";
