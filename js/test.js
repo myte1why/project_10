@@ -22,7 +22,7 @@ $(document).ready(function() {
 
 
 
-    var apilink     = 'http://www.omdbapi.com/?';
+    var apilink     = 'http://www.omdbapi.com/?&apikey=8d84c350';
     var api         = '&apikey=8d84c350'
          function apifunction(data){
 
