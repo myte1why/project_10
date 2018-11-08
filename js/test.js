@@ -23,7 +23,6 @@ $(document).ready(function() {
 
 
     var apilink     = 'http://www.omdbapi.com/?&apikey=8d84c350';
-    var api         = '&apikey=8d84c350'
          function apifunction(data){
 
             var item = "<h2>" + data["Title"] + "</h2>";
@@ -37,7 +36,7 @@ $(document).ready(function() {
             $("#all").append(poster);
          }
          $.each(apioptList,function(i, value) {
-             $.getJSON(apilink, apioptList[i],api, apifunction);
+             $.getJSON(apilink, apioptList[i], apifunction);
          });
     
 }); //end document.ready
