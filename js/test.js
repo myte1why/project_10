@@ -24,7 +24,6 @@ $(document).ready(function() {
 
     var apilink     = 'http://www.omdbapi.com/?&apikey=8d84c350';
          function apifunction(data){
-
             var item = "<h2>" + data["Title"] + "</h2>";
             item += "<h3>DIRECTOR :" +data["Director"]+"</h3>";
             item += "<h3>CAST : "+ data["Actors"] + "</h3>";
